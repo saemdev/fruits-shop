@@ -43,7 +43,7 @@
   <!-- header area starts from here  -->
 
   <header>
-  <section class="navbar md:max-w-7xl mx-auto w-[80%]  mt-7 border-2 rounded-full py-2 md:py-5 px-2 md:px-10 flex items-center justify-between bg-btn-fruit text-white">
+  <section class="navbar  md:max-w-7xl mx-2 md:mx-auto w-[100%]   mt-7 md:border-2 rounded-full py-2 md:py-5 px-2 md:px-10 flex items-center md:justify-between bt-white text-black border-none  md:bg-btn-fruit md:text-white">
     <div class="column1">
       <!-- Menu items for column 1 -->
       <ul class="list-none p-0 m-0 flex capitalize text-sm ">
@@ -58,7 +58,15 @@
       <label tabindex="0" class="btn btn-ghost btn-circle">
         <i class="fa-solid md:hidden block fa-bars"></i>
       </label>
-      <ul tabindex="0" class=" bg-btn-fruit capitalize menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabindex="0" class=" bg-white text-black border-2 font-semibold  capitalize menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <div class="relative">
+          <form class="flex items-center">
+          <input class=" px-3 py-2 border-none rounded-full bg-white" type="text" placeholder="Search">
+          <div class="absolute right-[20px]">
+            <i class="fa-solid  text-black fa-magnifying-glass"></i>
+            
+          </div>
+        </form>
         <li><a>home</a></li>
         <li><a>about us</a></li>
         <li><a>shop</a></li>
@@ -67,8 +75,8 @@
     </div>
 
     <div class="column2 spac">
-      <img class="w-10 block my-0 ml-auto" src="./images/logo.png" alt="">
-          <h2 class="text-2xl font-semibold">Fruit Burst</h2>
+      <img class="w-10 block  my-0 " src="./images/logo.png" alt="">
+          <h2 class="text-2xl ml-2 font-semibold">Fruit Burst</h2>
     </div>
     <div class="column3">
       <!-- Search bar for column 3 -->
@@ -93,19 +101,19 @@
   <div class="carousel w-full mt-10 relative rounded-lg ">
     <!-- slide 1  -->
     <div id="slide1" class="carousel-item relative z-10 w-full">
-      <div class="hero h-[550px] bg-auto bg-center bg-no-repeat" style="background-image: url(./images/banner1.png);">
+      <div class="hero h-[550px] bg-cover md:bg-auto  md:bg-center bg-no-repeat" style="background-image: url(./images/banner1.png);">
         <div class="hero-overlay brightness-0"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-lg">
-            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-            <p class="mb-5">We supply highly quality organic products</p>
+            <h1 class="mb-5 text-3xl md:text-5xl font-bold">Exotic tastes at your doorstep</h1>
+            <p class="mb-5 text-sm">We supply highly quality organic products</p>
             <button class="btn bg-btn-fruit text-white capitalize border-none">shop now</button>
           </div>
         </div>
       </div>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide4" class="btn btn-circle">❮</a> 
-        <a href="#slide2" class="btn btn-circle">❯</a>
+        <a href="#slide4" class=" text-white btn-circle">❮</a> 
+        <a href="#slide2" class=" text-white btn-circle">❯</a>
       </div>
     </div> 
     <!-- slide-2  -->
@@ -114,15 +122,15 @@
         <div class="hero-overlay brightness-0"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">A Place where Everything Special</h1>
-            <p class="mb-5">We help you to buy fresh fruit </p>
+            <h1 class="mb-5 text-3xl md:text-5xl font-bold">A Place where Everything Special</h1>
+            <p class="mb-5 text-sm">We help you to buy fresh fruit </p>
             <button class="btn bg-btn-fruit text-white capitalize border-none">shop now</button>
           </div>
         </div>
       </div>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide1" class="btn btn-circle">❮</a> 
-        <a href="#slide3" class="btn btn-circle">❯</a>
+        <a href="#slide1" class="text-white btn-circle">❮</a> 
+        <a href="#slide3" class="text-white btn-circle">❯</a>
       </div>
     </div> 
 
@@ -132,15 +140,15 @@
   <div class="hero-overlay brightness-0"></div>
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-md">
-      <h1 class="mb-5 text-5xl font-bold">Test in Every Slice and Sip</h1>
-      <p class="mb-5">Helping people to live better than before</p>
+      <h1 class="mb-5 text-3xl md:text-5xl font-bold">Test in Every Slice and Sip</h1>
+      <p class="mb-5 text-sm">Helping people to live better than before</p>
       <button class="btn bg-btn-fruit text-white capitalize border-none">shop now</button>
     </div>
   </div>
 </div>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide2" class="btn btn-circle">❮</a> 
-        <a href="#slide4" class="btn btn-circle">❯</a>
+        <a href="#slide2" class="text-white btn-circle">❮</a> 
+        <a href="#slide4" class="text-white btn-circle">❯</a>
       </div>
     </div> 
 
@@ -150,21 +158,21 @@
         <div class="hero-overlay brightness-0"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">Deliver at your doorstep</h1>
-            <p class="mb-5">Fresh and juicy fruits</p>
+            <h1 class="mb-5 text-3xl md:text-5xl font-bold">Deliver at your doorstep</h1>
+            <p class="mb-5 text-sm">Fresh and juicy fruits</p>
             <button class="btn bg-btn-fruit text-white capitalize border-none">shop now</button>
           </div>
         </div>
       </div>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide3" class="btn btn-circle">❮</a> 
-        <a href="#slide1" class="btn btn-circle">❯</a>
+        <a href="#slide3" class="text-white btn-circle">❮</a> 
+        <a href="#slide1" class="text-white btn-circle">❯</a>
       </div>
     </div>
   </div>
  <!-- positioned food card  -->
- <div class="max-w-6xl mx-auto hidden lg:block  bg-white absolute top-[31rem] right-[16rem] z-20  text-center p-5 rounded-lg shadow-lg justify-around items-center">
-  <div class="positioned-card-container flex">
+ <div class="lg:max-w-6xl w-[80%]  mx-auto hidden lg:block  bg-white absolute top-[31rem] right-[8rem] z-20  text-center p-5 rounded-lg shadow-lg justify-around items-center">
+  <div class="positioned-card-container flex justify-around">
     <div class="">
       <img src="./images/fruit1.png" alt="">
       <p class="">Red Grape</p>
@@ -521,20 +529,20 @@
   <h2 class="text-black font-bold text-4xl text-center mb-5">Why Choose Us</h2>
   <p class="text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
 
-<div class="section-container flex flex-col md:flex-row mt-10 space-x-5">
+<div class="section-container flex flex-col md:text-left text-center md:flex-row mt-10 space-x-5">
 
 <!-- content holder left  -->
   <div class="content-holder-left space-y-5">
     <!-- item 1 -->
     <div class="icon-and-content">
-      <div class="flex space-x-5 ">
+      <div class="flex flex-col md:flex-row space-x-5">
         <div class="icon mt-4 ">
-          <i class="fa-solid px-2 py-[10px] rounded-full bg-gray-200 fa-users"></i>
+          <img class="px-2 py-[10px] mx-auto  rounded-full bg-gray-200" src="./images/group 1.png" alt="">
         </div>
         
         <div class="text-content space-y-2">
           <h2 class="text-lg font-bold">Dedicated Team</h2>
-          <div class="border-b-2 border-b-stone-400 w-20"></div>
+          <div class="border-b-2  border-b-stone-400 w-20"></div>
           <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         </div>
     </div>
@@ -542,9 +550,9 @@
   <!-- item 2 -->
     <div class="icon-and-content">
 
-      <div class="flex space-x-5 ">
+      <div class="flex flex-col md:flex-row space-x-5 ">
         <div class="icon mt-4 ">
-          <i class="fa-solid px-2 py-[10px] rounded-full bg-gray-200 fa-users"></i>
+          <img class="px-2 py-[10px] mx-auto  rounded-full bg-gray-200" src="./images/love 1.png" alt="">
         </div>
         
         <div class="text-content space-y-2">
@@ -557,9 +565,9 @@
   <!-- item 3 -->
     <div class="icon-and-content">
 
-      <div class="flex space-x-5 ">
+      <div class="flex flex-col md:flex-row space-x-5 ">
         <div class="icon mt-4 ">
-          <i class="fa-solid px-2 py-[10px] rounded-full bg-gray-200 fa-users"></i>
+          <img class="px-2 py-[10px] mx-auto  rounded-full bg-gray-200" src="./images/gift-box 1.png" alt="">
         </div>
         
         <div class="text-content space-y-2">
@@ -581,12 +589,12 @@
 <div class="content-holder-left space-y-5">
   <!-- item 1 -->
   <div class="icon-and-content ">
-    <div class="flex ">
+    <div class="flex flex-col md:flex-row space-x-5 ">
       <div class="icon mt-4 ml-5 order-last ">
-        <i class="fa-solid px-2 py-[10px] rounded-full bg-gray-200 fa-users"></i>
+        <img class="px-2 py-[10px] mx-auto  rounded-full bg-gray-200" src="./images/fruit 1.png" alt="">
       </div>
       
-      <div class="text-content space-y-2 text-right ">
+      <div class="text-content space-y-2 text-center md:text-right ">
         <h2 class="text-lg font-bold">Integrated Supplier</h2>
         <div class="border-b-2 ml-auto border-b-stone-400 w-20"></div>
         <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -595,12 +603,12 @@
 </div>
 <!-- item 2 -->
 <div class="icon-and-content ">
-  <div class="flex ">
+  <div class="flex flex-col md:flex-row space-x-5 ">
     <div class="icon mt-4 ml-5 order-last ">
-      <i class="fa-solid px-2 py-[10px] rounded-full bg-gray-200 fa-users"></i>
+      <img class="px-2 py-[10px] mx-auto  rounded-full bg-gray-200" src="./images/ice-cream 1.png" alt="">
     </div>
     
-    <div class="text-content space-y-2 text-right ">
+    <div class="text-content space-y-2 text-center md:text-right ">
       <h2 class="text-lg font-bold">Sustainable Practice</h2>
       <div class="border-b-2 ml-auto border-b-stone-400 w-20"></div>
       <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -609,12 +617,12 @@
 </div>
 <!-- item 3 -->
   <div class="icon-and-content ">
-    <div class="flex ">
+    <div class="flex flex-col md:flex-row space-x-5 ">
       <div class="icon mt-4 ml-5 order-last ">
-        <i class="fa-solid px-2 py-[10px] rounded-full bg-gray-200 fa-users"></i>
+        <img class="px-2 py-[10px] mx-auto  rounded-full bg-gray-200" src="./images/like 1.png" alt="">
       </div>
       
-      <div class="text-content space-y-2 text-right ">
+      <div class="text-content space-y-2 text-center md:text-right ">
         <h2 class="text-lg font-bold">The Benefits Only</h2>
         <div class="border-b-2 ml-auto border-b-stone-400 w-20"></div>
         <p class="text-sm">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
